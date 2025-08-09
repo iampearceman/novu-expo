@@ -25,8 +25,8 @@ Novu Expo is a mobile application built with Expo and `@novu/react-native` packa
 
 ## Features
 
-- The main tab (`HomeScreen.tsx`) fetches Novu's Changelog.
-- The updates tab (`UpdatesScreen.tsx`) is a fully functional custom mobile notification in-app (inbox) feed.
+- The main tab (`index.tsx`) fetches Novu's Changelog.
+- The updates tab (`updates.tsx`) is a fully functional custom mobile notification in-app (inbox) feed.
 
 ## Prerequisites
 
@@ -71,7 +71,7 @@ Before you begin, ensure you have met the following requirements:
 ## Configuration
 
 To configure the Novu integration, you'll need to set up your Novu Application Identifier and Subscriber ID.  
-In this file: `UpdatesScreen.tsx`
+In this file: `updates.tsx`
 
 ```javascript
   return (

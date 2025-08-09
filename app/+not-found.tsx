@@ -14,7 +14,7 @@ export default function NotFoundScreen() {
         <Text style={styles.description}>
           We couldn't find the page you're looking for.
         </Text>
-        <Link href="/(tabs)/HomeScreen" asChild>
+        <Link href="/" asChild>
           <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}>Go to Home Screen</Text>
           </TouchableOpacity>

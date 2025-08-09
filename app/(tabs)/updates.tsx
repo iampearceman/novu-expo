@@ -8,8 +8,10 @@ export default function UpdatesScreen() {
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor="#F5F5F5" />
       <NovuProvider
-        subscriberId="<Subscriber ID>"
-        applicationIdentifier="<Application ID>"
+        applicationIdentifier="zpvQXkfv8vU5"
+        subscriberId="68960407fb7f0fb6424854d2"
+        backendUrl="https://eu.api.novu.co"
+        socketUrl="https://eu.ws.novu.co"
       >
         <UpdatesList />
       </NovuProvider>
